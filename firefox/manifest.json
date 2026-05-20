@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Div Modificator",
+  "version": "1.0.0",
+  "description": "Corregí el texto de las facturas del ERP antes de imprimirlas a PDF. Activá, hacé click en el texto, corregí e imprimí.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "div-modificator@empresa.local",
+      "strict_min_version": "115.0",
+      "update_url": "https://raw.githubusercontent.com/sernafernando/div-modificator/main/updates.json"
+    }
+  },
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "action": {
+    "default_title": "Activar modo edición de factura",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

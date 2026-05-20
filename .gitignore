@@ -1,0 +1,15 @@
+# Paquetes generados por build.sh (regenerables — se distribuyen por Releases)
+/div-modificator-chrome.zip
+/div-modificator-firefox.xpi
+
+# Salida del firmado de web-ext
+web-ext-artifacts/
+
+# Dependencias
+node_modules/
+
+# Tooling del agente
+.atl/
+
+# Archivos del sistema
+.DS_Store

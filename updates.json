@@ -1,0 +1,12 @@
+{
+  "addons": {
+    "div-modificator@empresa.local": {
+      "updates": [
+        {
+          "version": "1.0.0",
+          "update_link": "https://github.com/sernafernando/div-modificator/releases/download/v1.0.0/div-modificator-firefox-1.0.0.xpi"
+        }
+      ]
+    }
+  }
+}
